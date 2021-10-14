@@ -4,20 +4,15 @@ const useInput = (initialState, isRequiredError) => {
   const [error, setError] = useState(false);
   const [value1, value2] = initialState;
 
-  const manageError = useCallback((val1, val2, isRequiredErrorProp) => {
-    if (val1 !== '' && val2 !== '') {
-      setError(false);
-    } else if (isRequiredErrorProp) {
+ const manageError = useCallback((isRequiredErrorProp) => {
+    if (isRequiredErrorProp) {
       setError(true);
+    } else {
+      setError(false);
     }
   }, []);
 
-  useEffect(() => manageError(value1, value2, isRequiredError), [
-    isRequiredError,
-    value1,
-    value2,
-    manageError,
-  ]);
+  useEffect(() => manageError(isRequiredError), [isRequiredError, manageError]);
 
   return [value1, value2, error];
 };
