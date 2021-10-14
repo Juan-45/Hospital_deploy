@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Hospital_deploy/static/css/main.e300ca01.chunk.css",
+    "main.js": "/Hospital_deploy/static/js/main.c3f96e7c.chunk.js",
+    "main.js.map": "/Hospital_deploy/static/js/main.c3f96e7c.chunk.js.map",
+    "runtime-main.js": "/Hospital_deploy/static/js/runtime-main.0996d532.js",
+    "runtime-main.js.map": "/Hospital_deploy/static/js/runtime-main.0996d532.js.map",
+    "static/js/2.ffef3f1a.chunk.js": "/Hospital_deploy/static/js/2.ffef3f1a.chunk.js",
+    "static/js/2.ffef3f1a.chunk.js.map": "/Hospital_deploy/static/js/2.ffef3f1a.chunk.js.map",
+    "static/js/3.95a9e59d.chunk.js": "/Hospital_deploy/static/js/3.95a9e59d.chunk.js",
+    "static/js/3.95a9e59d.chunk.js.map": "/Hospital_deploy/static/js/3.95a9e59d.chunk.js.map",
+    "index.html": "/Hospital_deploy/index.html",
+    "static/css/main.e300ca01.chunk.css.map": "/Hospital_deploy/static/css/main.e300ca01.chunk.css.map",
+    "static/js/2.ffef3f1a.chunk.js.LICENSE.txt": "/Hospital_deploy/static/js/2.ffef3f1a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0996d532.js",
+    "static/js/2.ffef3f1a.chunk.js",
+    "static/css/main.e300ca01.chunk.css",
+    "static/js/main.c3f96e7c.chunk.js"
+  ]
+}
