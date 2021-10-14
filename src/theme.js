@@ -1,11 +1,11 @@
-import { createTheme } from "@material-ui/core/styles";
+import { createMuiTheme } from "@material-ui/core/styles";
 
 //Remenber- SnackBar to show up messages / Drawer to temporary sidebar in next pages of the app
 // / Dialog to recurrent user accounts / Stepper to show to the user the progress of a process with some steps
 // Table to show selectable info
 // Tool Tips to show some basic info about the function of a button
 
-const theme = createTheme({
+const theme = createMuiTheme({
   breakpoints: {
     values: {
       xs: 0,
