@@ -12,19 +12,15 @@ const useInput = (initialState, inputNames, nestedHandler, isRequiredError) => {
     trailing: true,
   });
 
-  const manageError = useCallback((val1, val2, isRequiredErrorProp) => {
-    if (val1 != 0 && val1 !== '' && val2 != 0 && val2 !== '') {
-      setError(false);
-    } else if (isRequiredErrorProp) {
+ const manageError = useCallback((isRequiredErrorProp) => {
+    if (isRequiredErrorProp) {
       setError(true);
+    } else {
+      setError(false);
     }
   }, []);
 
-  useEffect(
-    () => manageError(value1, value2, isRequiredError),
-
-    [isRequiredError, value1, value2, manageError]
-  );
+  useEffect(() => manageError(isRequiredError), [isRequiredError, manageError]);
 
   return [
     {
