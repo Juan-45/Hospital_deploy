@@ -2,7 +2,7 @@
 
 This is an extraction of one of the main sections of an app for learning purposes that currently doesn´t have a better name, so I just called it Hospital App,  you can find the main repository here [https://github.com/Juan-45/hospital_app](https://github.com/Juan-45/hospital_app).
 
-It was used: React functional components and hooks, Material UI, use-debounce, React-pdf and RegEx.
+It was used: React functional components and React Hooks, Material UI, use-debounce, React-pdf and RegEx.
 
 It can create a pre surgical sheet for a patient before he/she goes to surgery. 
 
